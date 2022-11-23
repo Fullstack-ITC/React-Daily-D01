@@ -1,5 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-export default function CompanyAddress(props) {
+export default function CompanyAddress() {
   // Your code
 }

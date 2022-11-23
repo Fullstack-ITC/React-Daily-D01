@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 /**
- * Implement a function component that accepts children in props
+ * Implement a function component that accepts children in its props
  * and render them inside a div
  */
-export default class WithChildren extends Component {
+export default function WithChildren() {
   // Your code
 }

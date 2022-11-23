@@ -1,19 +1,16 @@
-import React from 'react'
+import React from 'react';
 import NameDisplay from './NameDisplay';
 import CompanyAddress from './CompanyAddress';
 
-
 /**
- * Implement a component that have props including: companyName, address & symbol
- * This component should render two other components inside a div: 
- * NameDisplay - displays the name of the company and the symbol next to is 
- * "{companyName} ({symbol})" in an h1 tag
- * CompanyAddress - displays "Address: {address}" in an h4 tag
+ * Implement a component that has the following props: companyName, address & symbol
+ * This component should render two other components inside a div:
+ * NameDisplay - displays the name of the company and the symbol next to it in an h1 tag:
+ * "{companyName} ({symbol})".
+ * CompanyAddress - displays "Address: {address}" in an h4 tag.
  * The two components are declared above, use them
- * and should accept props according to what they should display
+ * They should accept props according to what they display
  */
-export default function NestedComp(props) {
-  const { companyName, address, symbol } = props;
+export default function NestedComp() {
   // Your code
-
 }
