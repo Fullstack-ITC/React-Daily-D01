@@ -41,6 +41,7 @@ To execute the tests, you should run:
 
 ```bash
 yarn test
+OR
 npm run test
 ```
 
@@ -48,6 +49,7 @@ To test only one exercise, you should run test-ex + _number_ of the exercise"
 
 ```bash
 yarn test-ex1
+OR
 npm run test-ex1
 ```
 
