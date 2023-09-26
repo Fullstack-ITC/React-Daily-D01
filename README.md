@@ -13,7 +13,7 @@ In each file, you have a comment explaining the task
 First you need to install the npm packages in this project.
 
 Because we are using react, we will also use `yarn` which is an alternative to `npm` build by facebook
-Yarn does not come with Node.js, so you'll have to install it manually.
+Yarn does not come with Node.js, so you'll have to install it manually. You can also use `npm` if you want.
 
 You can install `yarn` by following the [installation guide (recommended)](https://classic.yarnpkg.com/en/docs/install)
 
@@ -41,12 +41,14 @@ To execute the tests, you should run:
 
 ```bash
 yarn test
+npm run test
 ```
 
 To test only one exercise, you should run test-ex + _number_ of the exercise"
 
 ```bash
 yarn test-ex1
+npm run test-ex1
 ```
 
 This will keep a process open, that will run the tests every time you save a file (watch mode)

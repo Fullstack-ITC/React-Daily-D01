@@ -1,8 +1,8 @@
 import React from 'react';
 
 /**
- * Implement a function component that accepts children in its props
- * and render them inside a div
+ * Implement a functional component that accepts children in its props
+ * and render them inside a div (as a wrapper)
  */
 export default function WithChildren() {
   // Your code

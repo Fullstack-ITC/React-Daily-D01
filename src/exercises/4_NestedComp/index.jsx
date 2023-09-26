@@ -3,7 +3,7 @@ import NameDisplay from './NameDisplay';
 import CompanyAddress from './CompanyAddress';
 
 /**
- * Implement a component that has the following props: companyName, address & symbol
+ * Implement a functional component that has the following props: companyName, address & symbol
  * This component should render two other components inside a div:
  * NameDisplay - displays the name of the company and the symbol next to it in an h1 tag:
  * "{companyName} ({symbol})".

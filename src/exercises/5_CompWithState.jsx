@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * Implement a function component with a state
+ * Implement a functional component with a state
  * The state should include one property - "count", initialized to 0
  * The component should render a div, with an h1 tag in it which renders the text "Count: {count}"
  * Add a button with text "+1"
